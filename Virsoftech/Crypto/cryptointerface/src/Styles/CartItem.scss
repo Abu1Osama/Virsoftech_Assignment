@@ -1,0 +1,30 @@
+#cart-item.cart-item{
+    border: 1px solid #ccc;
+    background-color:var(--bg5);
+    color: white;
+    width: 200px;
+    border-radius: 16px;
+  span{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ button {
+    background-color:var(--bg6);
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width:480px) {
+    #cart-item.cart-item {
+
+      width: 100%;
+    }
+}
+
+  

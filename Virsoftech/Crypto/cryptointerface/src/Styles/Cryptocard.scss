@@ -1,0 +1,29 @@
+#cryptocard.cryptocard {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: var(--bg4);
+    color: white;
+    border-radius: 8px;
+  
+  
+  .crypto-price {
+    font-weight: bold;
+  }
+  
+  .maininput {
+    width: 60px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  
+  .buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
